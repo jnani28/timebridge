@@ -91,6 +91,10 @@ GitHub Actions runs the same validation for every pull request and push to `main
 
 The project builds to Cloudflare Worker-compatible output through Vinext and includes Sites hosting metadata. Run `npm run build` first; the generated `dist/` directory is intentionally excluded from Git.
 
+## Future enhancements
+
+Possible later improvements include custom working-hour preferences, shareable meeting links, calendar integration, saved timezone pairs, and an optional custom domain. The current release intentionally stays lightweight and uses no database or paid service.
+
 ## License
 
 No license has been selected. All rights are reserved by the repository owner.
